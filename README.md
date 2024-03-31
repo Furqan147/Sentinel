@@ -1,9 +1,9 @@
 This is sample project description
 
 
-# Project Title
+# Sentinal
 
-Simple overview of use/purpose.
+Sentinal is a microservices based project. It is built on Microsoft Dot Net 8.0 framework. For communication event sourcing is leveraged using Apache Kafka.
 
 ## Description
 
@@ -13,8 +13,14 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* .Net 8.0
+* Apache Kafka
+* Microsoft Azure
+* Docker
+* Mediatr
+* Efcore
+* Microsoft Visual Studio 2022
+* Microsoft SQl Server
 
 ### Installing
 
@@ -40,15 +46,15 @@ command to run if program contains helper info
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Furqan Zafar
+ex. furqan_zfr@outlook.com
 
 ## Version History
 
 * 0.2
     * Various bug fixes and optimizations
     * See [commit change]() or See [release history]()
-* 0.1
+* 1.0
     * Initial Release
 
 ## License
