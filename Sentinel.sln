@@ -25,15 +25,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{827F86CB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentinal.Core", "Sentinal.Core\Sentinal.Core.csproj", "{4BE49AEB-4521-400E-A3AF-6260C5971B1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station.Command.API", "Station.Command.API\Station.Command.API.csproj", "{2D3B16CF-63DA-4526-87AB-926CC8459A7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Command.API", "Station.Command.API\Station.Command.API.csproj", "{2D3B16CF-63DA-4526-87AB-926CC8459A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station.Domain", "Station.Domain\Station.Domain.csproj", "{E904D4C0-ADB2-424D-9D93-07E96CAEDAFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Domain", "Station.Domain\Station.Domain.csproj", "{E904D4C0-ADB2-424D-9D93-07E96CAEDAFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station.Infrastructure", "Station.Infrastructure\Station.Infrastructure.csproj", "{EBFCC285-98A3-4D2E-A9D1-A8C5C9F63048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Infrastructure", "Station.Infrastructure\Station.Infrastructure.csproj", "{EBFCC285-98A3-4D2E-A9D1-A8C5C9F63048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station.Listener", "Station.Listener\Station.Listener.csproj", "{3AEA178A-2336-40E9-B56E-FFE419D5F8CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Listener", "Station.Listener\Station.Listener.csproj", "{3AEA178A-2336-40E9-B56E-FFE419D5F8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station.Query.API", "Station.Query.API\Station.Query.API.csproj", "{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Query.API", "Station.Query.API\Station.Query.API.csproj", "{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.API", "Equipment.API\Equipment.API.csproj", "{8DCBF51C-786A-4690-81E0-DC3D59274B81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.Domain", "Equipment.Domain\Equipment.Domain.csproj", "{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +69,14 @@ Global
 		{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DCBF51C-786A-4690-81E0-DC3D59274B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DCBF51C-786A-4690-81E0-DC3D59274B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DCBF51C-786A-4690-81E0-DC3D59274B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DCBF51C-786A-4690-81E0-DC3D59274B81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +96,8 @@ Global
 		{EBFCC285-98A3-4D2E-A9D1-A8C5C9F63048} = {90105DD0-1B07-4A33-A7B1-2B9018977B7E}
 		{3AEA178A-2336-40E9-B56E-FFE419D5F8CE} = {90105DD0-1B07-4A33-A7B1-2B9018977B7E}
 		{264C78D9-CBDC-41AE-ADAE-9E11E07C294F} = {90105DD0-1B07-4A33-A7B1-2B9018977B7E}
+		{8DCBF51C-786A-4690-81E0-DC3D59274B81} = {4076D933-6FB0-4085-9D35-8C886C2E0D1C}
+		{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094} = {4076D933-6FB0-4085-9D35-8C886C2E0D1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB734B1C-4C66-4A19-AA5A-11ADC9C4B2FF}
