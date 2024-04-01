@@ -9,8 +9,6 @@
   <ItemGroup>
     <Folder Include="Domain\EventHandlers\" />
     <Folder Include="Domain\Operations\" />
-    <Folder Include="Infrastructure\" />
-    <Folder Include="Utility\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,7 +16,7 @@
     <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
     <PackageReference Include="Confluent.SchemaRegistry" Version="2.3.0" />
     <PackageReference Include="MediatR" Version="12.2.0" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
 
