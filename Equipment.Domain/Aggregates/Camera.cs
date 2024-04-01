@@ -2,7 +2,7 @@
 
 namespace Equipment.Domain.Aggregates
 {
-    internal class Camera
+    public class Camera
     {
         public EquipmentInfo Model { get; private set; }
         public int CameraId { get; private set; }
