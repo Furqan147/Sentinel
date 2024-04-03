@@ -35,37 +35,47 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Listener", "Station
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Station.Query.API", "Station.Query.API\Station.Query.API.csproj", "{264C78D9-CBDC-41AE-ADAE-9E11E07C294F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.API", "Equipment.API\Equipment.API.csproj", "{8DCBF51C-786A-4690-81E0-DC3D59274B81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.API", "Equipment.API\Equipment.API.csproj", "{8DCBF51C-786A-4690-81E0-DC3D59274B81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.Domain", "Equipment.Domain\Equipment.Domain.csproj", "{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.Domain", "Equipment.Domain\Equipment.Domain.csproj", "{7EBCFAB6-3CA4-4BEF-9D93-838EA4C70094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.Infrastructure", "Equipment.Infrastructure\Equipment.Infrastructure.csproj", "{2C869FF0-B7D6-4E66-AAD5-80633A139613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.Infrastructure", "Equipment.Infrastructure\Equipment.Infrastructure.csproj", "{2C869FF0-B7D6-4E66-AAD5-80633A139613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.Listener", "Equipment.Listener\Equipment.Listener.csproj", "{CACE97F0-670B-48F1-B61B-E4539EDCBC8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.Listener", "Equipment.Listener\Equipment.Listener.csproj", "{CACE97F0-670B-48F1-B61B-E4539EDCBC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.Query.API", "Equipment.Query.API\Equipment.Query.API.csproj", "{A9382869-5AA9-4C5B-B685-C231CDC85BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.Query.API", "Equipment.Query.API\Equipment.Query.API.csproj", "{A9382869-5AA9-4C5B-B685-C231CDC85BE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipment.RetryFailback", "Equipment.RetryFailback\Equipment.RetryFailback.csproj", "{AEDE83A2-4730-47F0-8A44-E05056E4E948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Equipment.RetryFailback", "Equipment.RetryFailback\Equipment.RetryFailback.csproj", "{AEDE83A2-4730-47F0-8A44-E05056E4E948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification.Command.API", "Identification.Command.API\Identification.Command.API.csproj", "{33E8ADAA-BCED-43C3-A7C8-248DC157C1F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identification.Command.API", "Identification.Command.API\Identification.Command.API.csproj", "{33E8ADAA-BCED-43C3-A7C8-248DC157C1F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification.Domain", "Identification.Domain\Identification.Domain.csproj", "{59359B1B-0214-4986-8443-9380BB4526E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identification.Domain", "Identification.Domain\Identification.Domain.csproj", "{59359B1B-0214-4986-8443-9380BB4526E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification.Infrastructure", "Identification.Infrastructure\Identification.Infrastructure.csproj", "{D78F5E8D-E8E6-4E26-BE5D-EADE702322BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identification.Infrastructure", "Identification.Infrastructure\Identification.Infrastructure.csproj", "{D78F5E8D-E8E6-4E26-BE5D-EADE702322BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification.Listener", "Identification.Listener\Identification.Listener.csproj", "{A00E9C6E-F193-4FAF-807C-B21250F3C8C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identification.Listener", "Identification.Listener\Identification.Listener.csproj", "{A00E9C6E-F193-4FAF-807C-B21250F3C8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification.Query.API", "Identification.Query.API\Identification.Query.API.csproj", "{B5931DF8-DD96-4F0F-9475-BA393172A097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identification.Query.API", "Identification.Query.API\Identification.Query.API.csproj", "{B5931DF8-DD96-4F0F-9475-BA393172A097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.API", "Maintenance.API\Maintenance.API.csproj", "{E8AF7E88-0122-4BE7-B5DC-0F68F16635DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.API", "Maintenance.API\Maintenance.API.csproj", "{E8AF7E88-0122-4BE7-B5DC-0F68F16635DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.Domain", "Maintenance.Domain\Maintenance.Domain.csproj", "{DFF4CE4F-2177-436D-A7A5-5B378A2AE181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Domain", "Maintenance.Domain\Maintenance.Domain.csproj", "{DFF4CE4F-2177-436D-A7A5-5B378A2AE181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.Infrastructure", "Maintenance.Infrastructure\Maintenance.Infrastructure.csproj", "{2C014AF4-3D1F-4951-A67B-FFCEE9BB9D39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Infrastructure", "Maintenance.Infrastructure\Maintenance.Infrastructure.csproj", "{2C014AF4-3D1F-4951-A67B-FFCEE9BB9D39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.Listener", "Maintenance.Listener\Maintenance.Listener.csproj", "{BA6075B2-1A7E-41EA-8C6E-ECA604DA5FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Listener", "Maintenance.Listener\Maintenance.Listener.csproj", "{BA6075B2-1A7E-41EA-8C6E-ECA604DA5FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maintenance.Query.API", "Maintenance.Query.API\Maintenance.Query.API.csproj", "{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Query.API", "Maintenance.Query.API\Maintenance.Query.API.csproj", "{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Command.API", "Notification.Command.API\Notification.Command.API.csproj", "{270DC04F-9B85-4001-9F10-B36C22C34732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Domain", "Notification.Domain\Notification.Domain.csproj", "{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Infrastructure", "Notification.Infrastructure\Notification.Infrastructure.csproj", "{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Listener", "Notification.Listener\Notification.Listener.csproj", "{600A892A-8A53-43EA-932F-C724332CA52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Query.API", "Notification.Query.API\Notification.Query.API.csproj", "{9A77D68F-A68F-4F7C-BB11-B998885A1079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +171,26 @@ Global
 		{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270DC04F-9B85-4001-9F10-B36C22C34732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270DC04F-9B85-4001-9F10-B36C22C34732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270DC04F-9B85-4001-9F10-B36C22C34732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270DC04F-9B85-4001-9F10-B36C22C34732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600A892A-8A53-43EA-932F-C724332CA52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600A892A-8A53-43EA-932F-C724332CA52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600A892A-8A53-43EA-932F-C724332CA52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600A892A-8A53-43EA-932F-C724332CA52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A77D68F-A68F-4F7C-BB11-B998885A1079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A77D68F-A68F-4F7C-BB11-B998885A1079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A77D68F-A68F-4F7C-BB11-B998885A1079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A77D68F-A68F-4F7C-BB11-B998885A1079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +226,11 @@ Global
 		{2C014AF4-3D1F-4951-A67B-FFCEE9BB9D39} = {C3A7658E-6713-4612-A3EE-170043FE0963}
 		{BA6075B2-1A7E-41EA-8C6E-ECA604DA5FC3} = {C3A7658E-6713-4612-A3EE-170043FE0963}
 		{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843} = {C3A7658E-6713-4612-A3EE-170043FE0963}
+		{270DC04F-9B85-4001-9F10-B36C22C34732} = {5036B0D6-11E6-4470-962D-50FB2445E642}
+		{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C} = {5036B0D6-11E6-4470-962D-50FB2445E642}
+		{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555} = {5036B0D6-11E6-4470-962D-50FB2445E642}
+		{600A892A-8A53-43EA-932F-C724332CA52D} = {5036B0D6-11E6-4470-962D-50FB2445E642}
+		{9A77D68F-A68F-4F7C-BB11-B998885A1079} = {5036B0D6-11E6-4470-962D-50FB2445E642}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB734B1C-4C66-4A19-AA5A-11ADC9C4B2FF}
