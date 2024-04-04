@@ -97,6 +97,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Listener", "Scheduling.Listener\Scheduling.Listener.csproj", "{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sentinal.Core.UnitTests", "Sentinal.Core.UnitTests", "{69506F8F-19C0-4543-BB23-EA640D75E205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentinal.Core.UnitTests", "Sentinal.Core.UnitTests\Sentinal.Core.UnitTests.csproj", "{872E8982-BE83-4FC6-B269-8D832AB7BF0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sentinal.Equipment.UnitTests", "Sentinal.Equipment.UnitTests", "{6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentinel.Equipment.CommandAPI.UnitTests", "Sentinel.Equipment.CommandAPI.UnitTests\Sentinel.Equipment.CommandAPI.UnitTests.csproj", "{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +259,14 @@ Global
 		{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872E8982-BE83-4FC6-B269-8D832AB7BF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872E8982-BE83-4FC6-B269-8D832AB7BF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872E8982-BE83-4FC6-B269-8D832AB7BF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872E8982-BE83-4FC6-B269-8D832AB7BF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -301,6 +317,10 @@ Global
 		{AE654CF2-A788-4B12-9CFE-334EBCBF0872} = {D4203322-7001-4971-BBA8-288D9826F081}
 		{77A5E451-BF52-4C67-905C-A854B1AAF253} = {D4203322-7001-4971-BBA8-288D9826F081}
 		{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD} = {D4203322-7001-4971-BBA8-288D9826F081}
+		{69506F8F-19C0-4543-BB23-EA640D75E205} = {827F86CB-2785-4610-B792-736AA0845905}
+		{872E8982-BE83-4FC6-B269-8D832AB7BF0D} = {69506F8F-19C0-4543-BB23-EA640D75E205}
+		{6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0} = {827F86CB-2785-4610-B792-736AA0845905}
+		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC} = {6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB734B1C-4C66-4A19-AA5A-11ADC9C4B2FF}
