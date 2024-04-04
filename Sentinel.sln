@@ -67,15 +67,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Listener", "Mai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maintenance.Query.API", "Maintenance.Query.API\Maintenance.Query.API.csproj", "{7DE5D6FD-7FB0-4A45-9B45-AE0CEA7AC843}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Command.API", "Notification.Command.API\Notification.Command.API.csproj", "{270DC04F-9B85-4001-9F10-B36C22C34732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Command.API", "Notification.Command.API\Notification.Command.API.csproj", "{270DC04F-9B85-4001-9F10-B36C22C34732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Domain", "Notification.Domain\Notification.Domain.csproj", "{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Domain", "Notification.Domain\Notification.Domain.csproj", "{C0EA47B9-81E0-401D-B6D2-978D5E23FC5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Infrastructure", "Notification.Infrastructure\Notification.Infrastructure.csproj", "{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Infrastructure", "Notification.Infrastructure\Notification.Infrastructure.csproj", "{5BEEEE9D-0D8A-45E7-AFAC-00E944B67555}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Listener", "Notification.Listener\Notification.Listener.csproj", "{600A892A-8A53-43EA-932F-C724332CA52D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Listener", "Notification.Listener\Notification.Listener.csproj", "{600A892A-8A53-43EA-932F-C724332CA52D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notification.Query.API", "Notification.Query.API\Notification.Query.API.csproj", "{9A77D68F-A68F-4F7C-BB11-B998885A1079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Query.API", "Notification.Query.API\Notification.Query.API.csproj", "{9A77D68F-A68F-4F7C-BB11-B998885A1079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
