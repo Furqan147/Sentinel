@@ -77,33 +77,38 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Listener", "No
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notification.Query.API", "Notification.Query.API\Notification.Query.API.csproj", "{9A77D68F-A68F-4F7C-BB11-B998885A1079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passenger.Command.API", "Passenger.Command.API\Passenger.Command.API.csproj", "{ED49E070-7DEE-4D17-A313-D5A8F175D532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passenger.Command.API", "Passenger.Command.API\Passenger.Command.API.csproj", "{ED49E070-7DEE-4D17-A313-D5A8F175D532}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passenger.Domain", "Passenger.Domain\Passenger.Domain.csproj", "{F3246484-4251-4F5F-919B-7C0239735FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passenger.Domain", "Passenger.Domain\Passenger.Domain.csproj", "{F3246484-4251-4F5F-919B-7C0239735FE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passenger.Infrastructure", "Passenger.Infrastructure\Passenger.Infrastructure.csproj", "{DE5E5C36-8882-4945-9B0E-43BBBD9850A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passenger.Infrastructure", "Passenger.Infrastructure\Passenger.Infrastructure.csproj", "{DE5E5C36-8882-4945-9B0E-43BBBD9850A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passenger.Listener", "Passenger.Listener\Passenger.Listener.csproj", "{89A2E001-0E62-4E9E-8906-3F44FB677EA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passenger.Listener", "Passenger.Listener\Passenger.Listener.csproj", "{89A2E001-0E62-4E9E-8906-3F44FB677EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passenger.Query.API", "Passenger.Query.API\Passenger.Query.API.csproj", "{8D15CE80-EB16-44C5-8B63-C04F3A57B3EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passenger.Query.API", "Passenger.Query.API\Passenger.Query.API.csproj", "{8D15CE80-EB16-44C5-8B63-C04F3A57B3EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Command.API", "Scheduling.Command.API\Scheduling.Command.API.csproj", "{2B4FAEEB-8F67-4868-9BB2-1F8FAB35E660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Command.API", "Scheduling.Command.API\Scheduling.Command.API.csproj", "{2B4FAEEB-8F67-4868-9BB2-1F8FAB35E660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Query.API", "Scheduling.Query.API\Scheduling.Query.API.csproj", "{3C32DD74-5BD2-4869-9E30-9D61602CFBC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Query.API", "Scheduling.Query.API\Scheduling.Query.API.csproj", "{3C32DD74-5BD2-4869-9E30-9D61602CFBC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedule.Domain", "Schedule.Domain\Schedule.Domain.csproj", "{AE654CF2-A788-4B12-9CFE-334EBCBF0872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schedule.Domain", "Schedule.Domain\Schedule.Domain.csproj", "{AE654CF2-A788-4B12-9CFE-334EBCBF0872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Infrastructure", "Scheduling.Infrastructure\Scheduling.Infrastructure.csproj", "{77A5E451-BF52-4C67-905C-A854B1AAF253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Infrastructure", "Scheduling.Infrastructure\Scheduling.Infrastructure.csproj", "{77A5E451-BF52-4C67-905C-A854B1AAF253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling.Listener", "Scheduling.Listener\Scheduling.Listener.csproj", "{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling.Listener", "Scheduling.Listener\Scheduling.Listener.csproj", "{8CFDA81B-ADA0-4385-8D5E-2F07B3398EFD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sentinal.Core.UnitTests", "Sentinal.Core.UnitTests", "{69506F8F-19C0-4543-BB23-EA640D75E205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentinal.Core.UnitTests", "Sentinal.Core.UnitTests\Sentinal.Core.UnitTests.csproj", "{872E8982-BE83-4FC6-B269-8D832AB7BF0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentinal.Core.UnitTests", "Sentinal.Core.UnitTests\Sentinal.Core.UnitTests.csproj", "{872E8982-BE83-4FC6-B269-8D832AB7BF0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sentinal.Equipment.UnitTests", "Sentinal.Equipment.UnitTests", "{6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sentinel.Equipment.CommandAPI.UnitTests", "Sentinel.Equipment.CommandAPI.UnitTests\Sentinel.Equipment.CommandAPI.UnitTests.csproj", "{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sentinel.Equipment.CommandAPI.UnitTests", "Sentinel.Equipment.CommandAPI.UnitTests\Sentinel.Equipment.CommandAPI.UnitTests.csproj", "{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sentinal.Kompose", "Sentinal.Kompose", "{096B0E61-B01D-40C9-A8B4-9931CA62E91B}"
+	ProjectSection(SolutionItems) = preProject
+		broker1-deployment.yaml = broker1-deployment.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +326,7 @@ Global
 		{872E8982-BE83-4FC6-B269-8D832AB7BF0D} = {69506F8F-19C0-4543-BB23-EA640D75E205}
 		{6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0} = {827F86CB-2785-4610-B792-736AA0845905}
 		{55B47CA1-C2F1-4D7E-85F9-E59ECC0C3BBC} = {6C52FFF6-512A-4709-ADCC-BB3AA8AB16A0}
+		{096B0E61-B01D-40C9-A8B4-9931CA62E91B} = {4076D933-6FB0-4085-9D35-8C886C2E0D1C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB734B1C-4C66-4A19-AA5A-11ADC9C4B2FF}
